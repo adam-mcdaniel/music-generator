@@ -4,6 +4,7 @@
 use song::*;
 use self::Number::*;
 use self::Accidental::*;
+use self::Tone::*;
 
 #[derive(Debug, Copy, Clone)]
 pub enum Number {
@@ -47,14 +48,17 @@ impl Chord {
     }
 
     pub fn show(&self, key: Key) {
-        println!("{:?}{} {:?}",
+        println!("{:?}{}{}",
             to_key(self.number, key),
             match self.accidental {
                 Sharp => "#",
                 Flat => "b",
                 Natural => ""
             },
-            self.tone
+            match self.tone {
+                Major => "",
+                Minor => "m",
+            }
         )
     }
 }

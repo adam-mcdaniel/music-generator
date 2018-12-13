@@ -76,7 +76,7 @@ impl Song {
                 Chord::new(I, Major, Natural),
                 Chord::new(IV, Major, Natural),
                 Chord::new(I, Major, Natural),
-                Chord::new(II, Minor, Sharp),
+                Chord::new(II, Minor, Natural),
                 Chord::new(V, Major, Natural),
                 Chord::new(III, Minor, Sharp),
                 Chord::new(V, Major, Natural),
