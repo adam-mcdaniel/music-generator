@@ -1,0 +1,15 @@
+[package]
+name = "music_generator"
+version = "0.1.0"
+authors = ["adam-mcdaniel <adam.mcdaniel17@gmail.com>"]
+
+[dependencies]
+rand = "0.6.1"
+
+[lib]
+name = "music_generator"
+path = "src/lib.rs"
+
+[[bin]]
+name = "music_generator"
+path = "src/bin.rs"
