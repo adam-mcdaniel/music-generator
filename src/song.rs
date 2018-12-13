@@ -76,7 +76,7 @@ impl Song {
                 Chord::new(I, Major, Natural),
                 Chord::new(IV, Major, Natural),
                 Chord::new(I, Major, Natural),
-                Chord::new(II, Minor, Natural),
+                Chord::new(II, Minor, Sharp),
                 Chord::new(V, Major, Natural),
                 Chord::new(III, Minor, Sharp),
                 Chord::new(V, Major, Natural),
@@ -88,10 +88,10 @@ impl Song {
         vec![
             vec![
                 Chord::new(I, Major, Natural),
-                Chord::new(IV, Major, Flat),
+                Chord::new(IV, Major, Natural),
                 Chord::new(VI, Minor, Natural),
                 Chord::new(II, Minor, Natural),
-                Chord::new(VI, Minor, Natural),
+                Chord::new(IV, Major, Natural),
                 Chord::new(V, Major, Natural),
                 Chord::new(I, Major, Natural),
                 ]
